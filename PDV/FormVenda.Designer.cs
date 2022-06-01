@@ -203,8 +203,8 @@
             // 
             // FormVenda
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(527, 560);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnLimpar);
@@ -219,8 +219,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtProduto);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormVenda";
-            this.Text = "Boca do Morro";
+            this.Text = "Ponto de Venda";
             this.ResumeLayout(false);
             this.PerformLayout();
 
